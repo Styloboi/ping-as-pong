@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGoal",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oBall","path":"objects/oBall/oBall.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-  ],
+  "name": "oStart",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -25,13 +23,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"goal","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sGoal",
-    "path": "sprites/sGoal/sGoal.yy",
+    "name": "sStart",
+    "path": "sprites/sStart/sStart.yy",
   },
   "spriteMaskId": null,
   "visible": true,
