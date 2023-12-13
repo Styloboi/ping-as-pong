@@ -20,10 +20,11 @@
   "ResourceOrderSettings": [
     {"name":"sStart","order":10,"path":"sprites/sStart/sStart.yy",},
     {"name":"oPaddle","order":3,"path":"objects/oPaddle/oPaddle.yy",},
+    {"name":"oScore","order":14,"path":"objects/oScore/oScore.yy",},
     {"name":"countdown","order":12,"path":"sprites/countdown/countdown.yy",},
-    {"name":"oScore","order":7,"path":"objects/oScore/oScore.yy",},
     {"name":"Start","order":7,"path":"sounds/Start/Start.yy",},
     {"name":"R_I_C_C_Pallet","order":3,"path":"sounds/R_I_C_C_Pallet/R_I_C_C_Pallet.yy",},
+    {"name":"tFontSprites","order":13,"path":"sprites/tFontSprites/tFontSprites.yy",},
     {"name":"start_room","order":1,"path":"rooms/start_room/start_room.yy",},
     {"name":"sMusic","order":4,"path":"sprites/sMusic/sMusic.yy",},
     {"name":"oGoal","order":9,"path":"objects/oGoal/oGoal.yy",},
@@ -36,7 +37,6 @@
     {"name":"Pallet","order":1,"path":"sounds/Pallet/Pallet.yy",},
     {"name":"R_I_C_C_Start","order":5,"path":"sounds/R_I_C_C_Start/R_I_C_C_Start.yy",},
     {"name":"sGoal","order":8,"path":"sprites/sGoal/sGoal.yy",},
-    {"name":"sScore","order":6,"path":"sprites/sScore/sScore.yy",},
     {"name":"R_I_C_C_Score","order":4,"path":"sounds/R_I_C_C_Score/R_I_C_C_Score.yy",},
   ],
 }
