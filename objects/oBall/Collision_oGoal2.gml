@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
-/// @DnDHash : 1414011F
+/// @DnDHash : 1932A57D
 /// @DnDArgument : "x" "303.5"
 /// @DnDArgument : "y" "171"
 x = 303.5;
@@ -8,13 +8,13 @@ y = 171;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 15965099
+/// @DnDHash : 76827437
 /// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "hspeed"
 hspeed = 5;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
-/// @DnDHash : 55B87162
+/// @DnDHash : 33F0587B
 /// @DnDArgument : "angle" "90"
 image_angle = 90;

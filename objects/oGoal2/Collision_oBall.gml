@@ -1,0 +1,1 @@
+global.score2 += 1;
