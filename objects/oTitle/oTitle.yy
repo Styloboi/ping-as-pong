@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStart",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,},
-  ],
+  "name": "oTitle",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sStart",
-    "path": "sprites/sStart/sStart.yy",
+    "name": "sTitle",
+    "path": "sprites/sTitle/sTitle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

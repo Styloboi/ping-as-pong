@@ -42,6 +42,7 @@
     {"id":{"name":"countdown","path":"sprites/countdown/countdown.yy",},},
     {"id":{"name":"Start","path":"sounds/Start/Start.yy",},},
     {"id":{"name":"R_I_C_C_Pallet","path":"sounds/R_I_C_C_Pallet/R_I_C_C_Pallet.yy",},},
+    {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
     {"id":{"name":"tFontSprites","path":"sprites/tFontSprites/tFontSprites.yy",},},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
     {"id":{"name":"sMusic","path":"sprites/sMusic/sMusic.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"Countdown","path":"sounds/Countdown/Countdown.yy",},},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
     {"id":{"name":"oGoal2","path":"objects/oGoal2/oGoal2.yy",},},
+    {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"voyager","path":"sounds/voyager/voyager.yy",},},
     {"id":{"name":"R_I_C_C_Countdown","path":"sounds/R_I_C_C_Countdown/R_I_C_C_Countdown.yy",},},
@@ -65,8 +67,8 @@
     {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
+    {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
