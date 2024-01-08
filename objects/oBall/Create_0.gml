@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 17C630DC
+/// @DnDArgument : "var" "global.color"
+if(global.color == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D54805F
+	/// @DnDParent : 17C630DC
+	/// @DnDArgument : "colour" "$FF17DC64"
+	image_blend = $FF17DC64 & $ffffff;
+	image_alpha = ($FF17DC64 >> 24) / $ff;
+}
+
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 7EFEBF40

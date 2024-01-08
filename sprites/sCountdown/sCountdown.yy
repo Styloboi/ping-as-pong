@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "countdown",
+  "name": "sCountdown",
   "bbox_bottom": 24,
   "bbox_left": 3,
   "bbox_right": 21,
@@ -35,7 +35,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "countdown",
+    "name": "sCountdown",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -57,10 +57,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d970cd81-7d5a-4b41-b06d-01ab332c0fcc","path":"sprites/countdown/countdown.yy",},},},"Disabled":false,"id":"c1cd1146-3f22-41ed-b4fe-28eff80d9e7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8c44ce4-032c-41b5-8966-d0fe58cb2d1d","path":"sprites/countdown/countdown.yy",},},},"Disabled":false,"id":"a3d2a648-9630-4755-84fd-df86e76a1c25","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b080042-0897-42e6-90f8-8cc0f8a9769b","path":"sprites/countdown/countdown.yy",},},},"Disabled":false,"id":"99872095-819b-4f41-9427-a9e04bfd99ab","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62dfe8f5-3fd7-4780-a801-3db57a37428b","path":"sprites/countdown/countdown.yy",},},},"Disabled":false,"id":"38414ebf-563a-4e2f-b02d-d80741469b84","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d970cd81-7d5a-4b41-b06d-01ab332c0fcc","path":"sprites/sCountdown/sCountdown.yy",},},},"Disabled":false,"id":"c1cd1146-3f22-41ed-b4fe-28eff80d9e7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8c44ce4-032c-41b5-8966-d0fe58cb2d1d","path":"sprites/sCountdown/sCountdown.yy",},},},"Disabled":false,"id":"a3d2a648-9630-4755-84fd-df86e76a1c25","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b080042-0897-42e6-90f8-8cc0f8a9769b","path":"sprites/sCountdown/sCountdown.yy",},},},"Disabled":false,"id":"99872095-819b-4f41-9427-a9e04bfd99ab","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62dfe8f5-3fd7-4780-a801-3db57a37428b","path":"sprites/sCountdown/sCountdown.yy",},},},"Disabled":false,"id":"38414ebf-563a-4e2f-b02d-d80741469b84","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

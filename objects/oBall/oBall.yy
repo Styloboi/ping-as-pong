@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "SpriteObjects",
+    "path": "folders/SpriteObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

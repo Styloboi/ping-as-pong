@@ -6,6 +6,13 @@
 x = 303.5;
 y = 171;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 34BFCBE5
+/// @DnDArgument : "soundid" "Score"
+/// @DnDSaveInfo : "soundid" "Score"
+audio_play_sound(Score, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 76827437
