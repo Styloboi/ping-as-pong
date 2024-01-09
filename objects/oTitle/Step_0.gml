@@ -1,25 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 72477617
-/// @DnDArgument : "code" "if (player == 0)$(13_10){$(13_10)	move = keyboard_check(ord("S")) - keyboard_check(ord("W"));$(13_10)}$(13_10)$(13_10)if (player == 1)$(13_10){$(13_10)	move = keyboard_check(vk_down) - keyboard_check(vk_up);$(13_10)}$(13_10)$(13_10)y = y + (move *spd);$(13_10)$(13_10)if (bbox_bottom > room_height) y = room_height - (sprite_height * 0.5);$(13_10)if (bbox_top < 0) y = 0 + (sprite_height * 0.5);"
-if (player == 0)
-{
-	move = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-}
-
-if (player == 1)
-{
-	move = keyboard_check(vk_down) - keyboard_check(vk_up);
-}
-
-y = y + (move *spd);
-
-if (bbox_bottom > room_height) y = room_height - (sprite_height * 0.5);
-if (bbox_top < 0) y = 0 + (sprite_height * 0.5);
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 7960578B
+/// @DnDHash : 6E915E38
 /// @DnDArgument : "code" "if(global.color == 0)$(13_10){$(13_10)	image_blend = $FF17DC64 & $ffffff;$(13_10)	image_alpha = ($FF17DC64 >> 24) / $ff;$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)	if(global.color == 1)$(13_10)	{$(13_10)		image_blend = $FFFFFFFF & $ffffff;$(13_10)		image_alpha = ($FFFFFFFF >> 24) / $ff;$(13_10)	}$(13_10)$(13_10)	else$(13_10)	{$(13_10)		if(global.color == 2)$(13_10)		{$(13_10)			image_blend = $FF00E9FF & $ffffff;$(13_10)			image_alpha = ($FF00E9FF >> 24) / $ff;$(13_10)		}$(13_10)	$(13_10)		else$(13_10)		{$(13_10)			if(global.color == 3)$(13_10)			{$(13_10)				image_blend = $FFFF0008 & $ffffff;$(13_10)				image_alpha = ($FFFF0008 >> 24) / $ff;$(13_10)			}$(13_10)		$(13_10)			else$(13_10)			{$(13_10)				if(global.color == 4)$(13_10)				{$(13_10)					image_blend = $FF0000FF & $ffffff;$(13_10)					image_alpha = ($FF0000FF >> 24) / $ff;$(13_10)				}$(13_10)			}$(13_10)		}$(13_10)	}$(13_10)}"
 if(global.color == 0)
 {
