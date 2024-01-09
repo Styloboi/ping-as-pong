@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sBall",
-    "path": "sprites/sBall/sBall.yy",
+    "name": "sCircle",
+    "path": "sprites/sCircle/sCircle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

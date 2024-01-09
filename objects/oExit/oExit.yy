@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Cancel",
-    "path": "sprites/Cancel/Cancel.yy",
+    "name": "sX",
+    "path": "sprites/sX/sX.yy",
   },
   "spriteMaskId": null,
   "visible": true,
