@@ -49,6 +49,7 @@
     {"name":"oScore2","order":2,"path":"objects/oScore2/oScore2.yy",},
     {"name":"sGoal","order":8,"path":"sprites/sGoal/sGoal.yy",},
     {"name":"sCenterLine","order":21,"path":"sprites/sCenterLine/sCenterLine.yy",},
+    {"name":"oGameEnd","order":14,"path":"objects/oGameEnd/oGameEnd.yy",},
     {"name":"R_I_C_C_Score","order":4,"path":"sounds/R_I_C_C_Score/R_I_C_C_Score.yy",},
   ],
 }

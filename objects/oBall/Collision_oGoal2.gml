@@ -16,9 +16,9 @@ audio_play_sound(Score, 0, 0, 1.0, undefined, 1.0);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 76827437
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "-5"
 /// @DnDArgument : "var" "hspeed"
-hspeed = 5;
+hspeed = -5;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1

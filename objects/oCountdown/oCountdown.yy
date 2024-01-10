@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCountdown",
+    "path": "sprites/sCountdown/sCountdown.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

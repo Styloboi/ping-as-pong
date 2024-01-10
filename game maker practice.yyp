@@ -72,6 +72,7 @@
     {"id":{"name":"oScore2","path":"objects/oScore2/oScore2.yy",},},
     {"id":{"name":"sGoal","path":"sprites/sGoal/sGoal.yy",},},
     {"id":{"name":"sCenterLine","path":"sprites/sCenterLine/sCenterLine.yy",},},
+    {"id":{"name":"oGameEnd","path":"objects/oGameEnd/oGameEnd.yy",},},
     {"id":{"name":"R_I_C_C_Score","path":"sounds/R_I_C_C_Score/R_I_C_C_Score.yy",},},
     {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
   ],

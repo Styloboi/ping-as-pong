@@ -4,48 +4,25 @@
 /// @DnDArgument : "code" "if(bbox_bottom > room_height) or (bbox_top < 0) vspeed = -vspeed;"
 if(bbox_bottom > room_height) or (bbox_top < 0) vspeed = -vspeed;
 
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
-/// @DnDHash : 275987CA
-/// @DnDArgument : "code" "if(global.color == 0)$(13_10){$(13_10)	image_blend = $FF17DC64 & $ffffff;$(13_10)	image_alpha = ($FF17DC64 >> 24) / $ff;$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)	if(global.color == 1)$(13_10)	{$(13_10)		image_blend = $FFFFFFFF & $ffffff;$(13_10)		image_alpha = ($FFFFFFFF >> 24) / $ff;$(13_10)	}$(13_10)$(13_10)	else$(13_10)	{$(13_10)		if(global.color == 2)$(13_10)		{$(13_10)			image_blend = $FF00E9FF & $ffffff;$(13_10)			image_alpha = ($FF00E9FF >> 24) / $ff;$(13_10)		}$(13_10)	$(13_10)		else$(13_10)		{$(13_10)			if(global.color == 3)$(13_10)			{$(13_10)				image_blend = $FFFF0008 & $ffffff;$(13_10)				image_alpha = ($FFFF0008 >> 24) / $ff;$(13_10)			}$(13_10)		$(13_10)			else$(13_10)			{$(13_10)				if(global.color == 4)$(13_10)				{$(13_10)					image_blend = $FF0000FF & $ffffff;$(13_10)					image_alpha = ($FF0000FF >> 24) / $ff;$(13_10)				}$(13_10)			}$(13_10)		}$(13_10)	}$(13_10)}"
-if(global.color == 0)
-{
-	image_blend = $FF17DC64 & $ffffff;
-	image_alpha = ($FF17DC64 >> 24) / $ff;
-}
+/// @DnDHash : 2A8D1313
+/// @DnDArgument : "function" "scriptColor"
+/// @DnDArgument : "arg" "self"
+scriptColor(self);
 
-else
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 08973D90
+/// @DnDArgument : "var" "oScore"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "7"
+if(oScore >= 7)
 {
-	if(global.color == 1)
-	{
-		image_blend = $FFFFFFFF & $ffffff;
-		image_alpha = ($FFFFFFFF >> 24) / $ff;
-	}
-
-	else
-	{
-		if(global.color == 2)
-		{
-			image_blend = $FF00E9FF & $ffffff;
-			image_alpha = ($FF00E9FF >> 24) / $ff;
-		}
-	
-		else
-		{
-			if(global.color == 3)
-			{
-				image_blend = $FFFF0008 & $ffffff;
-				image_alpha = ($FFFF0008 >> 24) / $ff;
-			}
-		
-			else
-			{
-				if(global.color == 4)
-				{
-					image_blend = $FF0000FF & $ffffff;
-					image_alpha = ($FF0000FF >> 24) / $ff;
-				}
-			}
-		}
-	}
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 643ED400
+	/// @DnDParent : 08973D90
+	/// @DnDArgument : "var" "hspeed"
+	hspeed = 0;
 }
