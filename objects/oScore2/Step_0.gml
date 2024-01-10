@@ -1,24 +1,11 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 4CF5DC13
-/// @DnDArgument : "code" "if(global.score2 == 1)$(13_10){$(13_10)	sprite_index = sScore;$(13_10)	image_index = 1;$(13_10)}$(13_10)$(13_10)if(global.score2 == 2)$(13_10){$(13_10)	sprite_index = sScore;$(13_10)	image_index = 2;$(13_10)}$(13_10)$(13_10)if(global.score2 == 3)$(13_10){$(13_10)	sprite_index = sScore;$(13_10)	image_index = 3;$(13_10)}"
-if(global.score2 == 1)
-{
-	sprite_index = sScore;
-	image_index = 1;
-}
-
-if(global.score2 == 2)
-{
-	sprite_index = sScore;
-	image_index = 2;
-}
-
-if(global.score2 == 3)
-{
-	sprite_index = sScore;
-	image_index = 3;
-}
+/// @DnDHash : 3967E8F6
+/// @DnDArgument : "imageind" "global.score2"
+/// @DnDArgument : "spriteind" "sScore"
+/// @DnDSaveInfo : "spriteind" "sScore"
+sprite_index = sScore;
+image_index = global.score2;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
