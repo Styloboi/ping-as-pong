@@ -75,3 +75,19 @@ if(ballColor == 4)
 	/// @DnDArgument : "var" "global.color"
 	global.color = 4;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7BE4141C
+/// @DnDArgument : "var" "ballColor"
+/// @DnDArgument : "value" "5"
+if(ballColor == 5)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 396B3FEE
+	/// @DnDParent : 7BE4141C
+	/// @DnDArgument : "expr" "5"
+	/// @DnDArgument : "var" "global.color"
+	global.color = 5;
+}

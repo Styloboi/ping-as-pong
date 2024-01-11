@@ -81,3 +81,19 @@ if(ballColor == 4)
 	image_blend = $FF0000FF & $ffffff;
 	image_alpha = ($FF0000FF >> 24) / $ff;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 44A4A147
+/// @DnDArgument : "var" "ballColor"
+/// @DnDArgument : "value" "5"
+if(ballColor == 5)
+{
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 46A9B70A
+	/// @DnDParent : 44A4A147
+	/// @DnDArgument : "colour" "$FFE27AFF"
+	image_blend = $FFE27AFF & $ffffff;
+	image_alpha = ($FFE27AFF >> 24) / $ff;
+}
