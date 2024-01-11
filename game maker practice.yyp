@@ -71,6 +71,7 @@
     {"id":{"name":"oBall","path":"objects/oBall/oBall.yy",},},
     {"id":{"name":"Pallet","path":"sounds/Pallet/Pallet.yy",},},
     {"id":{"name":"R_I_C_C_Start","path":"sounds/R_I_C_C_Start/R_I_C_C_Start.yy",},},
+    {"id":{"name":"oExitSettings","path":"objects/oExitSettings/oExitSettings.yy",},},
     {"id":{"name":"oExit","path":"objects/oExit/oExit.yy",},},
     {"id":{"name":"oScore2","path":"objects/oScore2/oScore2.yy",},},
     {"id":{"name":"sGoal","path":"sprites/sGoal/sGoal.yy",},},

@@ -48,6 +48,7 @@
     {"name":"oBall","order":6,"path":"objects/oBall/oBall.yy",},
     {"name":"Pallet","order":1,"path":"sounds/Pallet/Pallet.yy",},
     {"name":"R_I_C_C_Start","order":5,"path":"sounds/R_I_C_C_Start/R_I_C_C_Start.yy",},
+    {"name":"oExitSettings","order":16,"path":"objects/oExitSettings/oExitSettings.yy",},
     {"name":"oExit","order":11,"path":"objects/oExit/oExit.yy",},
     {"name":"oScore2","order":2,"path":"objects/oScore2/oScore2.yy",},
     {"name":"sGoal","order":8,"path":"sprites/sGoal/sGoal.yy",},
