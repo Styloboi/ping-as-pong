@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3967E8F6
 /// @DnDArgument : "imageind" "global.score2"
-/// @DnDArgument : "spriteind" "sScore"
-/// @DnDSaveInfo : "spriteind" "sScore"
-sprite_index = sScore;
+/// @DnDArgument : "spriteind" "sNumbers"
+/// @DnDSaveInfo : "spriteind" "sNumbers"
+sprite_index = sNumbers;
 image_index = global.score2;
 
 /// @DnDAction : YoYo Games.Common.Function_Call

@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCountdown",
-    "path": "sprites/sCountdown/sCountdown.yy",
+    "name": "sNumbers",
+    "path": "sprites/sNumbers/sNumbers.yy",
   },
   "spriteMaskId": null,
   "visible": true,

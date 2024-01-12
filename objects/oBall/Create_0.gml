@@ -10,6 +10,22 @@ randomize();
 /// @DnDArgument : "var" "hspeed"
 hspeed = choose(5, -5);
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7D75F974
+/// @DnDArgument : "var" "hspeed"
+/// @DnDArgument : "value" "-5"
+if(hspeed == -5)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 05A7AEAD
+	/// @DnDParent : 7D75F974
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "var" "image_xscale"
+	image_xscale = -1;
+}
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 26DBD511

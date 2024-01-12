@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sScore",
-    "path": "sprites/sScore/sScore.yy",
+    "name": "sNumbers",
+    "path": "sprites/sNumbers/sNumbers.yy",
   },
   "spriteMaskId": null,
   "visible": true,

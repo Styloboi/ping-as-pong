@@ -10,19 +10,3 @@ if(bbox_bottom > room_height) or (bbox_top < 0) vspeed = -vspeed;
 /// @DnDArgument : "function" "scriptColor"
 /// @DnDArgument : "arg" "self"
 scriptColor(self);
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 08973D90
-/// @DnDArgument : "var" "oScore"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "7"
-if(oScore >= 7)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 643ED400
-	/// @DnDParent : 08973D90
-	/// @DnDArgument : "var" "hspeed"
-	hspeed = 0;
-}
