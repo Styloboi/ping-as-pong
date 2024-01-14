@@ -31,3 +31,9 @@ if(hspeed == -5)
 /// @DnDHash : 26DBD511
 /// @DnDArgument : "var" "image_angle"
 image_angle = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 285DCC2A
+/// @DnDArgument : "var" "global.gameEnd"
+global.gameEnd = 0;

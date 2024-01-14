@@ -26,8 +26,11 @@
   "physicsObject": false,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShape": 0,
+  "physicsShapePoints": [
+    {"x":12.5,"y":12.5,},
+    {"x":12.5,"y":12.5,},
+  ],
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ball","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
