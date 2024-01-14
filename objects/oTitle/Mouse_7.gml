@@ -5,6 +5,14 @@
 /// @DnDArgument : "var" "ricc"
 ricc = 1;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 3656F957
+/// @DnDArgument : "xscale" "2"
+/// @DnDArgument : "yscale" "2"
+image_xscale = 2;
+image_yscale = 2;
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 4A89C770

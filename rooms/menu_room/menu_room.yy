@@ -23,11 +23,13 @@
     {"name":"inst_6997F426","path":"rooms/menu_room/menu_room.yy",},
     {"name":"inst_4797846E","path":"rooms/menu_room/menu_room.yy",},
     {"name":"inst_2383A525","path":"rooms/menu_room/menu_room.yy",},
+    {"name":"inst_239F66E4","path":"rooms/menu_room/menu_room.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Settings","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4797846E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oFrame","path":"objects/oFrame/oFrame.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":8.0,"x":303.5,"y":171.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_239F66E4","colour":2063597567,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSettingsBackground","path":"objects/oSettingsBackground/oSettingsBackground.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4797846E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oFrame","path":"objects/oFrame/oFrame.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"x":303.5,"y":171.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E5F5131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oColor","path":"objects/oColor/oColor.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oColor","path":"objects/oColor/oColor.yy",},"propertyId":{"name":"ballColor","path":"objects/oColor/oColor.yy",},"value":"6",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":243.5,"y":171.0,},
