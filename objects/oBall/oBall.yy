@@ -8,6 +8,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oPaddle","path":"objects/oPaddle/oPaddle.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oGoal","path":"objects/oGoal/oGoal.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oGoal2","path":"objects/oGoal2/oGoal2.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "physicsSensor": false,
   "physicsShape": 0,
   "physicsShapePoints": [
-    {"x":12.5,"y":12.5,},
-    {"x":12.5,"y":12.5,},
+    {"x":12.0,"y":12.0,},
+    {"x":12.0,"y":12.0,},
   ],
   "physicsStartAwake": true,
   "properties": [

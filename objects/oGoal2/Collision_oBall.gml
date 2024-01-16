@@ -1,1 +1,1 @@
-global.score2 += 1;
+global.score1 += 1;

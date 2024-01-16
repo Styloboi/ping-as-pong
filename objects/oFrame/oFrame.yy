@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sFrame",
-    "path": "sprites/sFrame/sFrame.yy",
+    "name": "sSettingsFrame",
+    "path": "sprites/sSettingsFrame/sSettingsFrame.yy",
   },
   "spriteMaskId": null,
   "visible": true,

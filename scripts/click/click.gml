@@ -12,8 +12,8 @@ function clickScale(target)
 	/// @DnDParent : 5146E704
 	/// @DnDArgument : "init" "i = 1"
 	/// @DnDArgument : "cond" "i <= 1.2"
-	/// @DnDArgument : "expr" "i += 0.2"
-	for(i = 1; i <= 1.2; i += 0.2) {
+	/// @DnDArgument : "expr" "i += 0.01"
+	for(i = 1; i <= 1.2; i += 0.01) {
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 		/// @DnDVersion : 1
 		/// @DnDHash : 12DCAED3
