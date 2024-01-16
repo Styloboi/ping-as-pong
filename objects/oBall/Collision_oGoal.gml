@@ -9,9 +9,9 @@ y = 171;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4B593CAB
-/// @DnDArgument : "var" "global.score1"
+/// @DnDArgument : "var" "global.score2"
 /// @DnDArgument : "value" "6"
-if(global.score1 == 6)
+if(global.score2 == 6)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

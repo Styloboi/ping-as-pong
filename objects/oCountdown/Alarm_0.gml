@@ -83,11 +83,13 @@ else
 	/// @DnDArgument : "var" "counting"
 	if(counting == 0)
 	{
-		/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 10620772
+		/// @DnDHash : 6EC976FA
 		/// @DnDParent : 45C4F9E8
-		/// @DnDArgument : "alpha" "0"
-		image_alpha = 0;
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "counting"
+		counting += -1;
 	}
 }
