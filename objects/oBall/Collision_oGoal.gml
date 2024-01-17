@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-/// @DnDVersion : 1
-/// @DnDHash : 0248278C
-/// @DnDArgument : "x" "303.5"
-/// @DnDArgument : "y" "171"
-x = 303.5;
-y = 171;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4B593CAB
@@ -19,6 +11,15 @@ if(global.score2 == 6)
 	/// @DnDParent : 4B593CAB
 	/// @DnDArgument : "var" "hspeed"
 	hspeed = 0;
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 20FFE16B
+	/// @DnDParent : 4B593CAB
+	/// @DnDArgument : "x" "303.5"
+	/// @DnDArgument : "y" "171"
+	x = 303.5;
+	y = 171;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -45,11 +46,20 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 45941C62
 	/// @DnDParent : 5D7DF8D0
-	/// @DnDArgument : "var" "global.score1"
+	/// @DnDArgument : "var" "global.score2"
 	/// @DnDArgument : "op" "1"
 	/// @DnDArgument : "value" "6"
-	if(global.score1 < 6)
+	if(global.score2 < 6)
 	{
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 0248278C
+		/// @DnDParent : 45941C62
+		/// @DnDArgument : "x" "303.5"
+		/// @DnDArgument : "y" "171"
+		x = 303.5;
+		y = 171;
+	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 5C085472

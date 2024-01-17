@@ -45,10 +45,10 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 46ECABB5
 	/// @DnDParent : 72F94080
-	/// @DnDArgument : "var" "global.score2"
+	/// @DnDArgument : "var" "global.score1"
 	/// @DnDArgument : "op" "1"
 	/// @DnDArgument : "value" "6"
-	if(global.score2 < 6)
+	if(global.score1 < 6)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
