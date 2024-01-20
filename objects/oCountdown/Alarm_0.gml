@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 03DF9EEF
-/// @DnDArgument : "var" "counting"
+/// @DnDArgument : "var" "global.counting"
 /// @DnDArgument : "not" "1"
-if(!(counting == 0))
+if(!(global.counting == 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -11,18 +11,18 @@ if(!(counting == 0))
 	/// @DnDParent : 03DF9EEF
 	/// @DnDArgument : "expr" "-1"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "counting"
-	counting += -1;
+	/// @DnDArgument : "var" "global.counting"
+	global.counting += -1;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 52515E26
 	/// @DnDParent : 03DF9EEF
-	/// @DnDArgument : "imageind" "counting"
+	/// @DnDArgument : "imageind" "global.counting"
 	/// @DnDArgument : "spriteind" "sNumbers"
 	/// @DnDSaveInfo : "spriteind" "sNumbers"
 	sprite_index = sNumbers;
-	image_index = counting;
+	image_index = global.counting;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -34,9 +34,9 @@ if(!(counting == 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 3D8CA8E0
 	/// @DnDParent : 03DF9EEF
-	/// @DnDArgument : "var" "counting"
+	/// @DnDArgument : "var" "global.counting"
 	/// @DnDArgument : "not" "1"
-	if(!(counting == 0))
+	if(!(global.counting == 0))
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
@@ -57,8 +57,8 @@ if(!(counting == 0))
 		/// @DnDVersion : 1
 		/// @DnDHash : 55C3FA2E
 		/// @DnDParent : 3A0EE646
-		/// @DnDArgument : "var" "counting"
-		if(counting == 0)
+		/// @DnDArgument : "var" "global.counting"
+		if(global.counting == 0)
 		{
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1.1
@@ -80,8 +80,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 45C4F9E8
 	/// @DnDParent : 64D0DEEE
-	/// @DnDArgument : "var" "counting"
-	if(counting == 0)
+	/// @DnDArgument : "var" "global.counting"
+	if(global.counting == 0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -89,7 +89,7 @@ else
 		/// @DnDParent : 45C4F9E8
 		/// @DnDArgument : "expr" "-1"
 		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "var" "counting"
-		counting += -1;
+		/// @DnDArgument : "var" "global.counting"
+		global.counting += -1;
 	}
 }

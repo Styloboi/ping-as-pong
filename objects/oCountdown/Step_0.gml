@@ -8,9 +8,9 @@ scriptColor(self);
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 170F7544
-/// @DnDArgument : "var" "counting"
+/// @DnDArgument : "var" "global.counting"
 /// @DnDArgument : "value" "-1"
-if(counting == -1)
+if(global.counting == -1)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDVersion : 1

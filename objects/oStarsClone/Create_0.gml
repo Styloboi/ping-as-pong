@@ -6,8 +6,8 @@ randomize();
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 059020F7
-/// @DnDArgument : "xscale" "choose(random_range(1.0,1.3))"
-image_xscale = choose(random_range(1.0,1.3));
+/// @DnDArgument : "xscale" "choose(random_range(1.0,1.4))"
+image_xscale = choose(random_range(1.0,1.4));
 image_yscale = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable

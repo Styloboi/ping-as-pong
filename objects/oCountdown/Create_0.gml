@@ -2,17 +2,17 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7F200D53
 /// @DnDArgument : "expr" "3"
-/// @DnDArgument : "var" "counting"
-counting = 3;
+/// @DnDArgument : "var" "global.counting"
+global.counting = 3;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 0561CCDE
-/// @DnDArgument : "imageind" "counting"
+/// @DnDArgument : "imageind" "global.counting"
 /// @DnDArgument : "spriteind" "sNumbers"
 /// @DnDSaveInfo : "spriteind" "sNumbers"
 sprite_index = sNumbers;
-image_index = counting;
+image_index = global.counting;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

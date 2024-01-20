@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "menu",
+  "name": "menus",
   "isCompatibility": false,
   "isDnD": true,
   "parent": {
