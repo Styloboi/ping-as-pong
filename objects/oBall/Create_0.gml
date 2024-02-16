@@ -7,5 +7,5 @@ global.gameEnd = 0;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 740DA244
-/// @DnDArgument : "steps" "125"
-alarm_set(0, 125);
+/// @DnDArgument : "steps" "245"
+alarm_set(0, 245);

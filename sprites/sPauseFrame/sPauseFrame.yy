@@ -4,7 +4,7 @@
   "name": "sPauseFrame",
   "bbox_bottom": 41,
   "bbox_left": 0,
-  "bbox_right": 69,
+  "bbox_right": 79,
   "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -15,8 +15,8 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d55f168-9186-4832-818b-39dcf3847115",},
   ],
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "height": 48,
   "HTile": false,
   "layers": [
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 35,
+    "xorigin": 40,
     "yorigin": 24,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 70,
+  "width": 80,
 }

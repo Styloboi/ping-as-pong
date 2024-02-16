@@ -28,7 +28,8 @@ if(!(global.counting == 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E018E9C
 	/// @DnDParent : 03DF9EEF
-	alarm_set(0, 30);
+	/// @DnDArgument : "steps" "60"
+	alarm_set(0, 60);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

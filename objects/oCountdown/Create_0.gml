@@ -35,5 +35,5 @@ audio_play_sound(Countdown, 0, 0, 1.0, undefined, 1.0);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3BB503C8
-/// @DnDArgument : "steps" "35"
-alarm_set(0, 35);
+/// @DnDArgument : "steps" "65"
+alarm_set(0, 65);

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "SpriteObjects",
-    "path": "folders/SpriteObjects.yy",
+    "name": "Settings",
+    "path": "folders/SpriteObjects/Settings.yy",
   },
   "parentObjectId": null,
   "persistent": true,

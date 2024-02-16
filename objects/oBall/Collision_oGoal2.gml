@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 1932A57D
-/// @DnDArgument : "x" "303.5"
-/// @DnDArgument : "y" "171"
-x = 303.5;
-y = 171;
+/// @DnDArgument : "x" "320"
+/// @DnDArgument : "y" "180"
+x = 320;
+y = 180;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -34,6 +34,14 @@ if(global.score1 == 6)
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "global.gameEnd"
 	global.gameEnd = 1;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 66D92430
+	/// @DnDParent : 5CCDC731
+	/// @DnDArgument : "soundid" "Yippee"
+	/// @DnDSaveInfo : "soundid" "Yippee"
+	audio_play_sound(Yippee, 0, 0, 1.0, undefined, 1.0);
 }
 
 /// @DnDAction : YoYo Games.Common.Else

@@ -14,10 +14,10 @@ if(musicOnOff == 0)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 12C9CFD7
 	/// @DnDParent : 6DFFAD43
-	/// @DnDArgument : "sound" "voyager"
+	/// @DnDArgument : "sound" "Voyager"
 	/// @DnDArgument : "volume" "0"
-	/// @DnDSaveInfo : "sound" "voyager"
-	audio_sound_gain(voyager, 0, 0);
+	/// @DnDSaveInfo : "sound" "Voyager"
+	audio_sound_gain(Voyager, 0, 0);
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 	/// @DnDVersion : 1.1
@@ -64,9 +64,9 @@ else
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 770B99FA
 		/// @DnDParent : 34D7ACB2
-		/// @DnDArgument : "sound" "voyager"
-		/// @DnDSaveInfo : "sound" "voyager"
-		audio_sound_gain(voyager, 1, 0);
+		/// @DnDArgument : "sound" "Voyager"
+		/// @DnDSaveInfo : "sound" "Voyager"
+		audio_sound_gain(Voyager, 1, 0);
 	
 		/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 		/// @DnDVersion : 1.1

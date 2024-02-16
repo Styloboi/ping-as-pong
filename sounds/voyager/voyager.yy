@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "voyager",
+  "name": "Voyager",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 48000,
-  "soundFile": "voyager.wav",
+  "soundFile": "Voyager.wav",
   "type": 1,
   "volume": 1.0,
 }
