@@ -22,6 +22,7 @@
   "ResourceOrderSettings": [
     {"name":"sStart","order":4,"path":"sprites/sStart/sStart.yy",},
     {"name":"oPaddleClassic","order":5,"path":"objects/oPaddleClassic/oPaddleClassic.yy",},
+    {"name":"saveGame","order":2,"path":"objects/saveGame/saveGame.yy",},
     {"name":"oScore","order":3,"path":"objects/oScore/oScore.yy",},
     {"name":"oLose","order":21,"path":"objects/oLose/oLose.yy",},
     {"name":"sMenu","order":11,"path":"sprites/sMenu/sMenu.yy",},

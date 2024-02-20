@@ -40,6 +40,7 @@
   "resources": [
     {"id":{"name":"sStart","path":"sprites/sStart/sStart.yy",},},
     {"id":{"name":"oPaddleClassic","path":"objects/oPaddleClassic/oPaddleClassic.yy",},},
+    {"id":{"name":"saveGame","path":"objects/saveGame/saveGame.yy",},},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},},
     {"id":{"name":"oLose","path":"objects/oLose/oLose.yy",},},
     {"id":{"name":"color","path":"scripts/color/color.yy",},},
@@ -112,9 +113,9 @@
     {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"pingas_room","path":"rooms/pingas_room/pingas_room.yy",},},
     {"roomId":{"name":"menu_room","path":"rooms/menu_room/menu_room.yy",},},
     {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
+    {"roomId":{"name":"pingas_room","path":"rooms/pingas_room/pingas_room.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
