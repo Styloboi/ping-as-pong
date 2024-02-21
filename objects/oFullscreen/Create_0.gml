@@ -16,3 +16,11 @@ image_speed = 0;
 /// @DnDHash : 7CE092DB
 /// @DnDArgument : "filename" ""save.settings""
 ini_open("save.settings");
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 337F973C
+/// @DnDArgument : "code" "global.fullscreen = ini_read_real("Settings", "Fullscreen", 0);$(13_10)$(13_10)ini_close();"
+global.fullscreen = ini_read_real("Settings", "Fullscreen", 0);
+
+ini_close();

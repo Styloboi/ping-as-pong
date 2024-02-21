@@ -4,6 +4,9 @@
   "name": "game maker practice",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"Music","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"Rick","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"SFX","targets":-1,},
   ],
   "configs": {
     "children": [],
