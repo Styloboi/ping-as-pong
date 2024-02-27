@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPaddle",
+    "path": "sprites/sPaddle/sPaddle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
