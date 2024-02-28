@@ -54,6 +54,7 @@
     {"id":{"name":"Start","path":"sounds/Start/Start.yy",},},
     {"id":{"name":"R_I_C_C_Pallet","path":"sounds/R_I_C_C_Pallet/R_I_C_C_Pallet.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
+    {"id":{"name":"bpmMetronome","path":"objects/bpmMetronome/bpmMetronome.yy",},},
     {"id":{"name":"oCountdown","path":"objects/oCountdown/oCountdown.yy",},},
     {"id":{"name":"sSettingsFrame","path":"sprites/sSettingsFrame/sSettingsFrame.yy",},},
     {"id":{"name":"oLevels","path":"objects/oLevels/oLevels.yy",},},
