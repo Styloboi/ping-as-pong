@@ -10,7 +10,7 @@
   "bitRate": 320,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 0.117415,
   "parent": {
     "name": "BPM Machine-Music Synchronization",
     "path": "folders/Sounds/BPM Machine-Music Synchronization.yy",
