@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Pingas_Modas",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":113.0,
+  "name":"Pingas_Modas",
+  "parent":{
+    "name":"songs",
+    "path":"folders/Sounds/songs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Pingas_Modas.wav",
+  "type":0,
+  "volume":1.0,
+}

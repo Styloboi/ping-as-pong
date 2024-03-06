@@ -31,9 +31,9 @@ if(global.musicOnOff == 0)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 2D1F1BD9
 	/// @DnDParent : 76025203
-	/// @DnDArgument : "sound" "Voyager"
-	/// @DnDSaveInfo : "sound" "Voyager"
-	audio_sound_gain(Voyager, 1, 0);
+	/// @DnDArgument : "sound" "Ping_as_Pong_Theme"
+	/// @DnDSaveInfo : "sound" "Ping_as_Pong_Theme"
+	audio_sound_gain(Ping_as_Pong_Theme, 1, 0);
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 	/// @DnDVersion : 1.1
@@ -61,10 +61,10 @@ else
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 0ECE128C
 		/// @DnDParent : 1D7A9968
-		/// @DnDArgument : "sound" "Voyager"
+		/// @DnDArgument : "sound" "Ping_as_Pong_Theme"
 		/// @DnDArgument : "volume" "0"
-		/// @DnDSaveInfo : "sound" "Voyager"
-		audio_sound_gain(Voyager, 0, 0);
+		/// @DnDSaveInfo : "sound" "Ping_as_Pong_Theme"
+		audio_sound_gain(Ping_as_Pong_Theme, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 		/// @DnDVersion : 1.1

@@ -8,8 +8,8 @@ if(global.ricc == 0)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 688E035E
 	/// @DnDParent : 36B24694
-	/// @DnDArgument : "soundid" "Voyager"
+	/// @DnDArgument : "soundid" "Ping_as_Pong_Theme"
 	/// @DnDArgument : "loop" "1"
-	/// @DnDSaveInfo : "soundid" "Voyager"
-	audio_play_sound(Voyager, 0, 1, 1.0, undefined, 1.0);
+	/// @DnDSaveInfo : "soundid" "Ping_as_Pong_Theme"
+	audio_play_sound(Ping_as_Pong_Theme, 0, 1, 1.0, undefined, 1.0);
 }
