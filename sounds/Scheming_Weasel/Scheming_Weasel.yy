@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":29.571426,
+  "duration":39.99999,
   "name":"Scheming_Weasel",
   "parent":{
     "name":"songs",

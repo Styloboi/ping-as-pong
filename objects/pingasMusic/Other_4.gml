@@ -9,7 +9,6 @@ if(global.ricc == 0)
 	/// @DnDHash : 688E035E
 	/// @DnDParent : 36B24694
 	/// @DnDArgument : "soundid" "Pingas_Modas"
-	/// @DnDArgument : "loop" "1"
 	/// @DnDSaveInfo : "soundid" "Pingas_Modas"
-	audio_play_sound(Pingas_Modas, 0, 1, 1.0, undefined, 1.0);
+	audio_play_sound(Pingas_Modas, 0, 0, 1.0, undefined, 1.0);
 }
