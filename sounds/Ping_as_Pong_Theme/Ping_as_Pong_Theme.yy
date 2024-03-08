@@ -9,7 +9,7 @@
   "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":64.0,
+  "duration":112.0,
   "name":"Ping_as_Pong_Theme",
   "parent":{
     "name":"songs",

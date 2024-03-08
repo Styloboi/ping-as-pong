@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Ping_as_Pong_Theme_OG",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":64.0,
+  "name":"Ping_as_Pong_Theme_OG",
+  "parent":{
+    "name":"songs",
+    "path":"folders/Sounds/songs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"Ping_as_Pong_Theme_OG.wav",
+  "type":1,
+  "volume":1.0,
+}
