@@ -142,7 +142,7 @@
     {"id":{"name":"sMusic","path":"sprites/sMusic/sMusic.yy",},},
     {"id":{"name":"sNumbers","path":"sprites/sNumbers/sNumbers.yy",},},
     {"id":{"name":"sPaddle","path":"sprites/sPaddle/sPaddle.yy",},},
-    {"id":{"name":"sPaddleHitbox","path":"sprites/sPaddleHitbox/sPaddleHitbox.yy",},},
+    {"id":{"name":"sPaddlePingas","path":"sprites/sPaddlePingas/sPaddlePingas.yy",},},
     {"id":{"name":"sPaddleWallHit","path":"sprites/sPaddleWallHit/sPaddleWallHit.yy",},},
     {"id":{"name":"sPause","path":"sprites/sPause/sPause.yy",},},
     {"id":{"name":"sPauseFrame","path":"sprites/sPauseFrame/sPauseFrame.yy",},},

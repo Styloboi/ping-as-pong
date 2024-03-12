@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPaddleHitbox",
-    "path":"sprites/sPaddleHitbox/sPaddleHitbox.yy",
+    "name":"sPaddlePingas",
+    "path":"sprites/sPaddlePingas/sPaddlePingas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

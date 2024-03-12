@@ -109,7 +109,7 @@
     {"name":"sMusic","order":2,"path":"sprites/sMusic/sMusic.yy",},
     {"name":"sNumbers","order":5,"path":"sprites/sNumbers/sNumbers.yy",},
     {"name":"sPaddle","order":1,"path":"sprites/sPaddle/sPaddle.yy",},
-    {"name":"sPaddleHitbox","order":26,"path":"sprites/sPaddleHitbox/sPaddleHitbox.yy",},
+    {"name":"sPaddlePingas","order":26,"path":"sprites/sPaddlePingas/sPaddlePingas.yy",},
     {"name":"sPaddleWallHit","order":23,"path":"sprites/sPaddleWallHit/sPaddleWallHit.yy",},
     {"name":"sPause","order":20,"path":"sprites/sPause/sPause.yy",},
     {"name":"sPauseFrame","order":10,"path":"sprites/sPauseFrame/sPauseFrame.yy",},
