@@ -6,3 +6,10 @@ y = mouse_y;
 
 if (bbox_bottom > room_height) y = room_height - (sprite_height * 0.5);
 if (bbox_top < 0) y = 0 + (sprite_height * 0.5);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 32276A24
+/// @DnDArgument : "function" "scriptColor"
+/// @DnDArgument : "arg" "self"
+scriptColor(self);

@@ -1,4 +1,5 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 433A092A
-/// @DnDArgument : "code" ""
+/// @DnDHash : 1E3502E3
+/// @DnDArgument : "code" "move_towards_point(700, 180, 18.1);"
+move_towards_point(700, 180, 18.1);

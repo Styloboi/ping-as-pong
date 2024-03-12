@@ -14,6 +14,6 @@ image_yscale = choose(random_range(1.0,1.5));
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6DDB3139
-/// @DnDArgument : "expr" "choose(random_range(1.0,2.0))"
+/// @DnDArgument : "expr" "choose(random_range(1.0,3.0))"
 /// @DnDArgument : "var" "vspeed"
-vspeed = choose(random_range(1.0,2.0));
+vspeed = choose(random_range(1.0,3.0));

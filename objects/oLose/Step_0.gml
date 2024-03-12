@@ -15,10 +15,10 @@ if(global.score1 == 7)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2A34C5F9
 	/// @DnDParent : 3D77759A
-	/// @DnDArgument : "x" "393.5"
-	/// @DnDArgument : "y" "16"
-	x = 393.5;
-	y = 16;
+	/// @DnDArgument : "x" "440"
+	/// @DnDArgument : "y" "20"
+	x = 440;
+	y = 20;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -38,9 +38,9 @@ else
 		/// @DnDVersion : 1
 		/// @DnDHash : 4A347B0B
 		/// @DnDParent : 65E1F516
-		/// @DnDArgument : "x" "213.5"
-		/// @DnDArgument : "y" "16"
-		x = 213.5;
-		y = 16;
+		/// @DnDArgument : "x" "200"
+		/// @DnDArgument : "y" "20"
+		x = 200;
+		y = 20;
 	}
 }

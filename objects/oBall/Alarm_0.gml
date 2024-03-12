@@ -6,16 +6,16 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4FF51C49
-/// @DnDArgument : "expr" "choose(6, -6)"
+/// @DnDArgument : "expr" "choose(7, -7)"
 /// @DnDArgument : "var" "hspeed"
-hspeed = choose(6, -6);
+hspeed = choose(7, -7);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 23DBCB90
 /// @DnDArgument : "var" "hspeed"
-/// @DnDArgument : "value" "-6"
-if(hspeed == -6)
+/// @DnDArgument : "value" "-7"
+if(hspeed == -7)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

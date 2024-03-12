@@ -70,9 +70,9 @@ else
 		/// @DnDVersion : 1
 		/// @DnDHash : 76827437
 		/// @DnDParent : 46ECABB5
-		/// @DnDArgument : "expr" "-5"
+		/// @DnDArgument : "expr" "-7"
 		/// @DnDArgument : "var" "hspeed"
-		hspeed = -5;
+		hspeed = -7;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

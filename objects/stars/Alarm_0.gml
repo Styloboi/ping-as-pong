@@ -2,11 +2,10 @@
 /// @DnDVersion : 1
 /// @DnDHash : 536A01B1
 /// @DnDArgument : "xpos" "choose(random_range(0,640))"
-/// @DnDArgument : "ypos" "10"
 /// @DnDArgument : "objectid" "oStarsClone"
 /// @DnDArgument : "layer" ""Stars""
 /// @DnDSaveInfo : "objectid" "oStarsClone"
-instance_create_layer(choose(random_range(0,640)), 10, "Stars", oStarsClone);
+instance_create_layer(choose(random_range(0,640)), 0, "Stars", oStarsClone);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

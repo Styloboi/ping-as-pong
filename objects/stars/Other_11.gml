@@ -31,13 +31,3 @@ if(room == menu_room)
 	/// @DnDArgument : "var" "global.bpmStopper"
 	global.bpmStopper += 1;
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 397B607E
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "menu_room"
-if(room == menu_room)
-{
-
-}
