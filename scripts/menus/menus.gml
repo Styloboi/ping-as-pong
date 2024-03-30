@@ -34,15 +34,6 @@ function creditToggle(target)
 		/// @DnDHash : 5401566C
 		/// @DnDParent : 4C70E9E0
 		image_alpha = 1;
-	
-		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-		/// @DnDVersion : 1
-		/// @DnDHash : 0BFDC246
-		/// @DnDParent : 4C70E9E0
-		/// @DnDArgument : "x" "320"
-		/// @DnDArgument : "y" "180"
-		x = 320;
-		y = 180;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -65,15 +56,6 @@ function creditToggle(target)
 			/// @DnDParent : 3D2BC064
 			/// @DnDArgument : "alpha" "0"
 			image_alpha = 0;
-		
-			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-			/// @DnDVersion : 1
-			/// @DnDHash : 5A237C41
-			/// @DnDParent : 3D2BC064
-			/// @DnDArgument : "x" "320"
-			/// @DnDArgument : "y" "500"
-			x = 320;
-			y = 500;
 		}
 	}
 }

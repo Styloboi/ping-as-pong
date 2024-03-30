@@ -14,9 +14,9 @@ if(ballColor == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 43FF8B46
 	/// @DnDParent : 3CA59857
-	/// @DnDArgument : "colour" "$FF17DC64"
-	image_blend = $FF17DC64 & $ffffff;
-	image_alpha = ($FF17DC64 >> 24) / $ff;
+	/// @DnDArgument : "colour" "$FF49BE97"
+	image_blend = $FF49BE97 & $ffffff;
+	image_alpha = ($FF49BE97 >> 24) / $ff;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

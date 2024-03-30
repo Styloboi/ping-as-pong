@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Scale
-/// @DnDVersion : 1
-/// @DnDHash : 5CD56264
-image_xscale = 1;
-image_yscale = 1;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 04A69BC6
@@ -69,3 +63,10 @@ if(global.settings == 1)
 		}
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 234BC5F7
+/// @DnDArgument : "function" "clickScaleBack"
+/// @DnDArgument : "arg" "self"
+clickScaleBack(self);

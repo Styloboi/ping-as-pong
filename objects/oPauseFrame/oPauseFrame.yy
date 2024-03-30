@@ -3,13 +3,14 @@
   "%Name":"oPauseFrame",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oPauseFrame",
   "overriddenProperties":[],
   "parent":{
-    "name":"SpriteObjects",
-    "path":"folders/SpriteObjects.yy",
+    "name":"Pause",
+    "path":"folders/SpriteObjects/Pause.yy",
   },
   "parentObjectId":null,
   "persistent":false,

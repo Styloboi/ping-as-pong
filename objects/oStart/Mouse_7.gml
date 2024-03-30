@@ -4,12 +4,13 @@
 /// @DnDArgument : "var" "global.settings"
 if(global.settings == 0)
 {
-	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
-	/// @DnDHash : 4FB61673
+	/// @DnDHash : 5A8051AA
 	/// @DnDParent : 51A55C2A
-	image_xscale = 1;
-	image_yscale = 1;
+	/// @DnDArgument : "function" "clickScaleBack"
+	/// @DnDArgument : "arg" "self"
+	clickScaleBack(self);
 
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1

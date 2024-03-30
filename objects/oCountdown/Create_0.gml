@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7F200D53
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "var" "global.counting"
+/// @DnDArgument : "var_1" "global.countdown"
 global.counting = 3;
+global.countdown = false;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
@@ -20,17 +24,19 @@ image_index = global.counting;
 /// @DnDArgument : "var" "image_speed"
 image_speed = 0;
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-/// @DnDVersion : 1
-/// @DnDHash : 2C0E3AF2
-image_alpha = 1;
-
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 2779EE00
 /// @DnDArgument : "soundid" "Countdown"
 /// @DnDSaveInfo : "soundid" "Countdown"
 audio_play_sound(Countdown, 0, 0, 1.0, undefined, 1.0);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 2C13D6FE
+/// @DnDArgument : "code" "scriptColor(self);$(13_10)TweenEasyFade(1.0, 0.0, 0, 60, EaseInOutSine);"
+scriptColor(self);
+TweenEasyFade(1.0, 0.0, 0, 60, EaseInOutSine);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

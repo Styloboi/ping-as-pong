@@ -1,12 +1,14 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 2AE31B34
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "global.bpmStopperEvent0 >= 1 && global.bpmStopperEvent0 <= 7"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "expr_1" "global.bpmStopperEvent0 >= 97 && global.bpmStopperEvent0 <= 113"
 /// @DnDArgument : "not_1" "1"
-if(!(global.bpmStopperEvent0 >= 1 && global.bpmStopperEvent0 <= 7) && !(global.bpmStopperEvent0 >= 97 && global.bpmStopperEvent0 <= 113))
+/// @DnDArgument : "expr_2" "global.bpmStopperEvent0 == 30 || global.bpmStopperEvent0 == 31 || global.bpmStopperEvent0 == 29"
+/// @DnDArgument : "not_2" "1"
+if(!(global.bpmStopperEvent0 >= 1 && global.bpmStopperEvent0 <= 7) && !(global.bpmStopperEvent0 >= 97 && global.bpmStopperEvent0 <= 113) && !(global.bpmStopperEvent0 == 30 || global.bpmStopperEvent0 == 31 || global.bpmStopperEvent0 == 29))
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1

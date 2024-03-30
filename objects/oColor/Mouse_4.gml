@@ -1,6 +1,5 @@
-/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 02CAECED
-/// @DnDArgument : "function" "clickScale"
-/// @DnDArgument : "arg" "self"
-clickScale(self);
+/// @DnDHash : 70564A16
+/// @DnDArgument : "code" "clickScale(self)"
+clickScale(self)

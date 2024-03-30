@@ -1,8 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
-/// @DnDHash : 428F6951
-image_xscale = 1;
-image_yscale = 1;
+/// @DnDHash : 47DC44E7
+/// @DnDArgument : "function" "clickScaleBack"
+/// @DnDArgument : "arg" "self"
+clickScaleBack(self);
 
 /// @DnDAction : YoYo Games.Game.End_Game
 /// @DnDVersion : 1

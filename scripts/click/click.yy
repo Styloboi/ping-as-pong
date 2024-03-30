@@ -2,7 +2,7 @@
   "$GMScript":"",
   "%Name":"click",
   "isCompatibility":false,
-  "isDnD":true,
+  "isDnD":false,
   "name":"click",
   "parent":{
     "name":"Scripts",
