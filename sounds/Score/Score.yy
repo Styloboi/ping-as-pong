@@ -6,10 +6,10 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":0.902292,
+  "duration":1.483084,
   "name":"Score",
   "parent":{
     "name":"effects",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"Score.wav",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

@@ -20,7 +20,12 @@ ini_open("save.settings");
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 337F973C
-/// @DnDArgument : "code" "global.fullscreen = ini_read_real("Settings", "Fullscreen", 0);$(13_10)$(13_10)ini_close();"
+/// @DnDArgument : "code" "global.fullscreen = ini_read_real("Settings", "Fullscreen", 0);$(13_10)$(13_10)ini_close();$(13_10)$(13_10)switch (os_type)$(13_10){$(13_10)	case os_android: instance_destroy();$(13_10)}"
 global.fullscreen = ini_read_real("Settings", "Fullscreen", 0);
 
 ini_close();
+
+switch (os_type)
+{
+	case os_android: instance_destroy();
+}
