@@ -21,10 +21,9 @@ if (l472C32E1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6517876D
 	/// @DnDParent : 472C32E1
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "expr" "1 * global.markiplier"
 	/// @DnDArgument : "var" "global.pingasScore"
-	global.pingasScore += 1;
+	global.pingasScore = 1 * global.markiplier;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

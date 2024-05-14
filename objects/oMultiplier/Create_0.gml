@@ -1,0 +1,1 @@
+global.markiplier = 1;

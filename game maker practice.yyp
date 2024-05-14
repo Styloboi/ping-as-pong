@@ -68,6 +68,7 @@
     {"id":{"name":"oBallDemo","path":"objects/oBallDemo/oBallDemo.yy",},},
     {"id":{"name":"oBallQuarter","path":"objects/oBallQuarter/oBallQuarter.yy",},},
     {"id":{"name":"oBallTriple","path":"objects/oBallTriple/oBallTriple.yy",},},
+    {"id":{"name":"oMultiplier","path":"objects/oMultiplier/oMultiplier.yy",},},
     {"id":{"name":"oBoxDemo","path":"objects/oBoxDemo/oBoxDemo.yy",},},
     {"id":{"name":"oBpmBackground","path":"objects/oBpmBackground/oBpmBackground.yy",},},
     {"id":{"name":"oBpmBalls","path":"objects/oBpmBalls/oBpmBalls.yy",},},

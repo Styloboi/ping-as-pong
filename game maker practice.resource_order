@@ -41,6 +41,7 @@
     {"name":"oBall","order":5,"path":"objects/oBall/oBall.yy",},
     {"name":"oBallQuarter","order":25,"path":"objects/oBallQuarter/oBallQuarter.yy",},
     {"name":"oBallTriple","order":26,"path":"objects/oBallTriple/oBallTriple.yy",},
+    {"name":"oMultiplier","order":30,"path":"objects/oMultiplier/oMultiplier.yy",},
     {"name":"oBoxDemo","order":1,"path":"objects/oBoxDemo/oBoxDemo.yy",},
     {"name":"oBpmBackground","order":6,"path":"objects/oBpmBackground/oBpmBackground.yy",},
     {"name":"oBpmBalls","order":3,"path":"objects/oBpmBalls/oBpmBalls.yy",},
