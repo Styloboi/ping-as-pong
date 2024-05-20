@@ -19,6 +19,15 @@ if (l472C32E1_0)
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 53B9F102
+	/// @DnDParent : 472C32E1
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "global.markiplier"
+	global.markiplier += 1;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 6517876D
 	/// @DnDParent : 472C32E1
 	/// @DnDArgument : "expr" "1 * global.markiplier"
