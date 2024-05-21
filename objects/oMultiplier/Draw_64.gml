@@ -15,7 +15,7 @@ draw_set_font(fontNumbers);
 /// @DnDVersion : 1
 /// @DnDHash : 2A3A39EC
 /// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "40"
+/// @DnDArgument : "y" "60"
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "global.markiplier"
-draw_text(20, 40, string("") + string(global.markiplier));
+draw_text(20, 60, string("") + string(global.markiplier));
