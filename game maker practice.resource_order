@@ -113,7 +113,7 @@
     {"name":"Pallet","order":11,"path":"sounds/Pallet/Pallet.yy",},
     {"name":"Ping_as_Pong_Theme_OG","order":4,"path":"sounds/Ping_as_Pong_Theme_OG/Ping_as_Pong_Theme_OG.yy",},
     {"name":"Ping_as_Pong_Theme","order":6,"path":"sounds/Ping_as_Pong_Theme/Ping_as_Pong_Theme.yy",},
-    {"name":"Pingas_Modas","order":5,"path":"sounds/Pingas_Modas/Pingas_Modas.yy",},
+    {"name":"Pingas_Modas","order":7,"path":"sounds/Pingas_Modas/Pingas_Modas.yy",},
     {"name":"R_I_C_C_Countdown","order":2,"path":"sounds/R_I_C_C_Countdown/R_I_C_C_Countdown.yy",},
     {"name":"R_I_C_C_Pallet","order":3,"path":"sounds/R_I_C_C_Pallet/R_I_C_C_Pallet.yy",},
     {"name":"R_I_C_C_Score","order":4,"path":"sounds/R_I_C_C_Score/R_I_C_C_Score.yy",},

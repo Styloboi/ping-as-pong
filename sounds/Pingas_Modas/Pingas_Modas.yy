@@ -9,7 +9,7 @@
   "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":113.0,
+  "duration":114.41896,
   "name":"Pingas_Modas",
   "parent":{
     "name":"songs",
